@@ -11,6 +11,6 @@ image: cuba-2.jpg
 
 playlisting 
 
-{% include spotifyPlaylist.html id=page.3OkugeswBcDrxewMu7GZwK %}
+{% include spotifyPlaylist.html id="3OkugeswBcDrxewMu7GZwK" %}
 
 fin

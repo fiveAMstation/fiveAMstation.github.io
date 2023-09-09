@@ -1,6 +1,7 @@
 ---
-layout: category
-title: Learning Resources
+layout: page
+title: now playing...
 category: resources
 permalink: /playlists
 ---
+testing

@@ -4,4 +4,8 @@ title: about
 permalink: /about
 ---
 
-Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused publishing platform for your publication site or blog. You can find everything you need to get started under documentation. For more information on how to install and use this theme, check out.
+welcome to the fiveAM station, where we can all experience universal moments together if you just leave the door open to your mind while you’re here. 
+
+delicately hand-picked journeys to nourish you in any scenarios that can exist in the worlds through music. 
+
+this is all for fun and play. hate it, love it, have secondhand embarrassment. something is working. leave better than you came. or worse than before—take what you need.

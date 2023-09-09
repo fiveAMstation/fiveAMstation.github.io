@@ -1,7 +1,7 @@
 ---
 layout: page
 title: now playing...
-category: resources
+category: 
 permalink: /playlists
 ---
 testing

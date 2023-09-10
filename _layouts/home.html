@@ -2,9 +2,32 @@
 layout: default
 title: Home
 ---
-<h4>
+<!-- <h4>
   all things funky happen at fiveAM
-</h4>
+</h4> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>fiveAM station now playing...</title>
+  </head>
+</html>
+
+<div class="recordBoxContainer">
+  {% include spotifyPlaylist.html id="3OkugeswBcDrxewMu7GZwK" %}
+  <div class="songListBTN">
+    <span class="circleBTN circleBTN1"></span>
+    <span class="circleBTN circleBTN2"></span>
+    <span class="circleBTN circleBTN3"></span>
+    <span class="circleBTN circleBTN4"></span>
+    <span class="circleBTN circleBTN5"></span>
+    <span class="circleBTN circleBTN6"></span>
+    <span class="circleBTN circleBTN7"></span>
+    <span class="circleBTN circleBTN8"></span>
+    <span class="circleBTN circleBTN9"></span>
+  </div>
+</div>
 
 {% for post in paginator.posts %}
   {% include featured-post.html %}

@@ -8,6 +8,16 @@
     display:block;
   }
 
+  .spotify{
+    position: absolute;
+    margin-top: 10px;
+    right: 10px;
+    width: 70%;
+    height: 95%;
+    margin-left: 10px;
+    z-index: 90;
+  }
+
   .recordBoxContainer {
     position: absolute;
     bottom: 2vw;

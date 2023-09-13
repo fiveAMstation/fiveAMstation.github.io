@@ -1,12 +1,3 @@
-  .songListBTN {
-    position: absolute;
-    top: 50%;
-    left: -80px;
-    transform: translateY(-50%);
-    width: 55px;
-    height: 55px;
-    display:block;
-  }
 
   .spotify{
     position: absolute;
@@ -38,36 +29,12 @@
     border: 1px solid #fff;
     border-radius: 50px;
   }
-  
-  .circleBTN2 {
-    top: 0;
-    left: 20px;
-  }
-  .circleBTN3 {
-    top: 0;
-    left: 40px;
-  }
-  .circleBTN4 {
-    top: 20px;
-    left: 0;
-  }
-  .circleBTN5 {
-    top: 20px;
-    left: 20px;
-  }
-  .circleBTN6 {
-    top: 20px;
-    left: 40px;
-  }
-  .circleBTN7 {
-    top: 40px;
-    left: 0;
-  }
-  .circleBTN8 {
-    top: 40px;
-    left: 20px;
-  }
-  .circleBTN9 {
-    top: 40px;
-    left: 40px;
+
+  .channelBox {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5vw;
+    width: 40vw;
+    z-index: 99;
   }

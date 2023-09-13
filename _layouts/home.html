@@ -10,7 +10,10 @@ title: Home
   fiveAM station <i>now playing...</i>
 </center>
 </h4>
-
+<div class="channelBox">
+  <h2 class="channelTitle">fiveAM station</h2>
+  <p class="channelText">Welcome to the fiveAM station. Now playing...</p>
+  {% for post in paginator.posts %}
 <div class="recordBoxContainer">
       {% include spotifyPlaylist.html id="3OkugeswBcDrxewMu7GZwK" %}
 </div>

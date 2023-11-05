@@ -1,7 +1,7 @@
 ---
 layout: page
-title: now playing...
+title: archives
 category: 
 permalink: /playlists
 ---
-testing
+coming soon

@@ -10,65 +10,10 @@ title: Home
   fiveAM station <i>now playing...</i>
 </center>
 </h4>
-
-<!-- <div>
-  <div class="radioLanding">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="channelItem" style="background-image: url(https://images.unsplash.com/photo-1694537745985-34eacdf76139?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2938&q=80);"></div>
-          <div class="channelContainer">
-  
-          </div>
-        </div>
-  
-      </div>
-    </div>
-    <div class="channelBox">
-      <img src="https://images.squarespace-cdn.com/content/v1/63b357054abf6a588a5eb6bc/f5b04fa5-4fd1-40b3-b130-a55bf5a79306/logo2.png?format=1500w" height="200" width="200" class="logo">
-      <h2 class="channelTitle">fiveAM station</h2>
-      <p class="channelText">Welcome to the fiveAM station. Now playing...</p>
-      </div>
-    </div>
-    <div class="recordBoxContainer">
-      <div class="playerBG"></div>
-      <iframe src="https://open.spotify.com/embed/playlist/3OkugeswBcDrxewMu7GZwK" width="100%" height="100%" frameBorder="0" allowtransparency="true" allow="encrypted-media" class="spotify"></iframe>
-  
-  </div> -->
-
 <div>
-<!-- <div class="radioLanding">
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="channelItem" style="background-image: url(https://images.unsplash.com/photo-1694537745985-34eacdf76139?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2938&q=80);"></div>
-        <div class="channelContainer">
-        </div>
-      </div>
-    </div>
-  </div>
-  </div> -->
-<!-- <div class="channelBox">
-  <img src="https://images.squarespace-cdn.com/content/v1/63b357054abf6a588a5eb6bc/f5b04fa5-4fd1-40b3-b130-a55bf5a79306/logo2.png?format=1500w" height="200" width="200" class="logo">
-  <h2 class="channelTitle">fiveAM station</h2>
-  <p class="channelText">Welcome to the fiveAM station. Now playing...</p> -->
       {% include spotifyPlaylist.html id="3OkugeswBcDrxewMu7GZwK" %}
-{% for post in paginator.posts %}
+When time isn't on your side, this one is here for you. 
+<!-- {% for post in paginator.posts %}
   {% include featured-post.html %}
-{% endfor %}
+{% endfor %} -->
 </div>
-
-<!-- Pagination links 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
-  {% else %}
-    <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
-  {% else %}
-    <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
-  {% endif %}
-</div> -->

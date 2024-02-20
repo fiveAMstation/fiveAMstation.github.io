@@ -187,6 +187,7 @@ h1 {
   text-align: center;
   margin-top: 50%;
   letter-spacing: 0.5px;
+  clear: both;
 }
 
 .text-outline {
@@ -224,34 +225,57 @@ h1 {
 
 main > h3 {
   text-transform: lowercase;
-  font-size: 24px;
+  font-size: 20px;
   font-family: sans-serif;
   text-align: center;
-  font-weight: 200;
+  font-weight: 100;
 }
 
-section > img {
+img {
   max-width: 30%;
   float: left;
-  margin: 3% 0 5% 10%;
+  margin: 10% 0 5% 10%;
 }
 
-p {
+section > iframe {
+  float: left;
+  max-width: 50%;
+  margin: 10% 2%;
+}
+
+.about {
   font-family: sans-serif;
   font-size: 18px;
   float: left;
   font-weight: 100;
   text-align: right;
-  padding: 2% 40%;
+  padding: 2% 20%;
 }
 
 section > h2 {
-  letter-spacing: 12px;
-  font-size: 40px;
-  float: inline-end;
+  letter-spacing: 14px;
+  font-size: 44px;
+  text-align: center;
   font-weight: 100;
-  margin-top: 3%;
+  margin-top: 6%;
+  margin-bottom: 0%;
 }
+
+.desc {
+  font-size: 16px;
+  font-weight: 100;
+  margin: 0 0 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+
+/* section > h4 {
+  font-size: 18px;
+  font-weight: 100;
+  display: inline;
+} */
 
 /******************************************
 /* ADDITIONAL STYLES

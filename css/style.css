@@ -144,7 +144,7 @@ a:hover {
 }
 
 .nav {
-  max-width: 70%;
+  width: 65%;
   position: fixed;
   background-color: var(--black);
   overflow: hidden;
@@ -152,7 +152,7 @@ a:hover {
 
 .nav{
   max-height: 0;
-  transition: max-height .5s ease-out;
+  transition: max-height 0s ease-out;
 }
 
 /* Toggle menu icon */

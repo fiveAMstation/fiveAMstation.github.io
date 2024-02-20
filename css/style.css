@@ -1,0 +1,258 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background-color: #f7f4e9;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+header {
+  padding: 10px 0;
+  position: sticky;
+  box-shadow: 1px 1px 5px 0px var(--grey);
+}
+
+footer {
+
+}
+
+/* Media query for screens */
+@media screen and (max-width: 800px) {
+  h2 {
+    display: block;
+    float: none;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .hamb {
+    display: none;
+}
+
+#sidebar-menu {
+  max-height: none;
+  top: 0;
+  position: relative;
+  width: fit-content;
+  background-color: transparent;
+  margin-left: 40%;
+}
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+
+  #sidebar-menu {
+    margin-left: 25%;
+  }
+
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1480px) {
+  
+  #sidebar-menu {
+    margin-left: 30%;
+  }
+
+}
+
+/******************************************
+/* NAV STYLES
+/*******************************************/
+
+nav {
+  display: inline;
+}
+
+.logo {
+  margin-left: 10%;
+  text-decoration: none;
+  color: black;
+  font-size: 32px;
+  letter-spacing: 0.5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 2% 2% 0 1%;
+  font-size: 32px;
+  letter-spacing: 0.5px;
+}
+
+a:hover {
+  -webkit-text-fill-color: #f7f4e9;
+  -webkit-text-stroke-color: currentColor;
+  -webkit-text-stroke-width: .04em;
+}
+
+.hamb {
+  cursor: pointer;
+  float: right;
+  padding: 15px 20px;
+}
+
+.hamb-line {
+  background: black;
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 30px;
+}
+
+.hamb-line::before,
+.hamb-line::after {
+  background: black;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.hamb-line::before {
+  top: 5px;
+}
+
+.hamb-line::after {
+  top: -5px;
+}
+
+.side-menu {
+  display: none;
+}
+
+.nav {
+  width: 65%;
+  position: fixed;
+  background-color: var(--black);
+  overflow: hidden;
+}
+
+.nav{
+  max-height: 0;
+  transition: max-height 0s ease-out;
+}
+
+/* Toggle menu icon */
+.side-menu:checked ~ nav {
+  max-height: 100%;
+  max-width: 100%;
+  background-color: #f7f4e9;
+}
+.side-menu:checked ~ nav a {
+    display: block;
+    padding: 40px;
+    color: var(--white);
+}
+.side-menu:checked ~ .hamb .hamb-line {
+  background: transparent;
+}
+.side-menu:checked ~ .hamb .hamb-line::before {
+  transform: rotate(-45deg);
+  top:0;
+}
+.side-menu:checked ~ .hamb .hamb-line::after {
+  transform: rotate(45deg);
+  top:0;
+}
+
+/******************************************
+/* H1
+/*******************************************/
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  margin-top: 50%;
+  letter-spacing: 0.5px;
+}
+
+.text-outline {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: .012em;
+}
+
+.text-outline-hover {
+  position: relative;
+  
+  &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      max-width: 0;
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      content: attr(data-text);
+      transition: max-width .8s cubic-bezier(.22, .61, .36, 1);
+      -webkit-text-fill-color: black;
+  }
+      
+  &:hover {
+      &::before {
+          max-width: 100%;
+      }
+  }
+}
+
+/******************************************
+/* LAYOUT STYLES
+/*******************************************/
+
+main > h3 {
+  text-transform: lowercase;
+  font-size: 24px;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 200;
+}
+
+section > img {
+  max-width: 30%;
+  float: left;
+  margin: 3% 0 5% 10%;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 18px;
+  float: left;
+  font-weight: 100;
+  text-align: right;
+  padding: 2% 40%;
+}
+
+section > h2 {
+  letter-spacing: 12px;
+  font-size: 40px;
+  float: inline-end;
+  font-weight: 100;
+  margin-top: 3%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

@@ -53,6 +53,12 @@ footer {
   iframe {
     height: 152px;
   }
+  h1 {
+    font-size: 15px;
+  }
+  section > h2 {
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 1100px) {
@@ -204,9 +210,9 @@ a:hover {
 /*******************************************/
 
 h1 {
-  font-size: 64px;
+  font-size: 55px;
   text-align: center;
-  margin-top: 40%;
+  margin-top: 55%;
   letter-spacing: 0.5px;
   clear: both;
   font-family: superDessert;
@@ -279,11 +285,11 @@ section > iframe {
 
 section > h2 {
   letter-spacing: 16px;
-  font-size: 44px;
+  font-size: 35px;
   text-align: center;
   font-weight: 100;
   margin-top: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   font-family: superDessert;
   /* -webkit-text-stroke-color: #F3BC00;
   -webkit-text-stroke-width: .04em; */
